@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <h1>Product Information</h1>
+    <div style="padding:20px;border:solid medium black;font-size:20pt">
+        @RenderBody()  @*RenderBody方法会将动作方法所指定的视图内容插入到布局标记中*@
+    </div>
+    <h2>Visit <a href="http://apress.com">Apress</a></h2>
+</body>
+</html>
